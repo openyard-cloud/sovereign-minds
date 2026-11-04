@@ -23,7 +23,7 @@ export const PROVIDERS: Record<string, ProviderDef> = {
   mistral: { id: "mistral", label: "Mistral", base: "https://api.mistral.ai/v1", keyEnv: "MISTRAL_API_KEY", modelEnv: "MISTRAL_MODEL", defaultModel: "mistral-medium-latest", json: true },
   nvidia: { id: "nvidia", label: "NVIDIA NIM", base: "https://integrate.api.nvidia.com/v1", keyEnv: "NVIDIA_API_KEY", modelEnv: "NVIDIA_MODEL", defaultModel: "deepseek-ai/deepseek-v4.1-flash", json: false },
   zai: { id: "zai", label: "Z.ai", base: "https://api.z.ai/api/paas/v4", keyEnv: "ZAI_API_KEY", modelEnv: "ZAI_MODEL", defaultModel: "glm-4.7-flash", json: true },
-  openrouter: { id: "openrouter", label: "OpenRouter", base: "https://openrouter.ai/api/v1", keyEnv: "OPENROUTER_API_KEY", modelEnv: "OPENROUTER_MODEL", defaultModel: "nvidia/nemotron-3-super-120b-a12b:free", json: true, extraHeaders: { "HTTP-Referer": "https://github.com/thihodev/sovereign-minds", "X-Title": "Sovereign Minds" } },
+  openrouter: { id: "openrouter", label: "OpenRouter", base: "https://openrouter.ai/api/v1", keyEnv: "OPENROUTER_API_KEY", modelEnv: "OPENROUTER_MODEL", defaultModel: "nvidia/nemotron-3-super-120b-a12b:free", json: true, extraHeaders: { "HTTP-Referer": "https://github.com/openyard-cloud/sovereign-minds", "X-Title": "Sovereign Minds" } },
   groq: { id: "groq", label: "Groq", base: "https://api.groq.com/openai/v1", keyEnv: "GROQ_API_KEY", modelEnv: "GROQ_MODEL", defaultModel: "qwen/qwen3.8-27b", json: true },
   // Without a payment method only MiniMax-M3 (a Chinese model) answers on the free tier (checked 2026-10-20).
   sambanova: { id: "sambanova", label: "SambaNova", base: "https://api.sambanova.ai/v1", keyEnv: "SAMBANOVA_API_KEY", modelEnv: "SAMBANOVA_MODEL", defaultModel: "MiniMax-M3", json: false },
