@@ -1,5 +1,7 @@
 # Sovereign Minds
 
+[![OpenYard code check](https://openyard.cloud/badge/sovereign-minds.svg)](https://openyard.cloud/p/sovereign-minds#check)
+
 An open world where every nation is governed by its own Claude mind, each born with its own national trait, all running on the Watcher's Claude subscription. The world starts in the stone age. A deterministic World Engine enforces every rule in code: inventions need their prerequisites, nothing appears from nothing. A human **Watcher** observes, judges the nations' petitions, issues world-wide decrees, and can chat with Claude about what is happening.
 
 Một dự án mã nguồn mở của [OpenYard](https://openyard.cloud) · [Discord](https://discord.gg/TFKsfh6tMk)
